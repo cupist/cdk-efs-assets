@@ -2,7 +2,7 @@ const {
   AwsCdkConstructLibrary,
   DependenciesUpgradeMechanism,
   DevEnvironmentDockerImage,
-  Gitpod
+  Gitpod,
 } = require('projen');
 
 const AUTOMATION_TOKEN = 'AUTOMATION_GITHUB_TOKEN';
@@ -97,7 +97,6 @@ gitpod.addVscodeExtensions(
   'ms-azuretools.vscode-docker',
   'AmazonWebServices.aws-toolkit-vscode',
 );
-
 
 
 const common_exclude = ['cdk.out', 'cdk.context.json', 'images', 'yarn-error.log', '*.zip'];
