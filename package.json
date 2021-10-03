@@ -52,7 +52,7 @@
     "jsii-pacmak": "^1.35.0",
     "json-schema": "^0.3.0",
     "npm-check-updates": "^11",
-    "projen": "^0.28.33",
+    "projen": "^0.28.34",
     "standard-version": "^9",
     "ts-jest": "^26.5.6",
     "typescript": "^4.4.3"
@@ -70,7 +70,7 @@
     "@aws-cdk/aws-secretsmanager": "^1.101.0",
     "@aws-cdk/core": "^1.101.0",
     "@aws-cdk/custom-resources": "^1.101.0",
-    "cdk-fargate-run-task": "^0.1.97",
+    "cdk-fargate-run-task": "^0.1.104",
     "constructs": "^3.2.27"
   },
   "dependencies": {
@@ -86,7 +86,7 @@
     "@aws-cdk/aws-secretsmanager": "^1.101.0",
     "@aws-cdk/core": "^1.101.0",
     "@aws-cdk/custom-resources": "^1.101.0",
-    "cdk-fargate-run-task": "^0.1.97"
+    "cdk-fargate-run-task": "^0.1.104"
   },
   "bundledDependencies": [],
   "keywords": [

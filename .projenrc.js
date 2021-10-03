@@ -1,6 +1,5 @@
 const {
   AwsCdkConstructLibrary,
-  DependenciesUpgradeMechanism,
   DevEnvironmentDockerImage,
   Gitpod,
 } = require('projen');
@@ -30,13 +29,13 @@ const project = new AwsCdkConstructLibrary({
   ],
   deps: ['cdk-fargate-run-task'],
   peerDeps: ['cdk-fargate-run-task'],
-  depsUpgrade: DependenciesUpgradeMechanism.githubWorkflow({
+  depsUpgradeOptions: {
     ignoreProjen: false,
     workflowOptions: {
       labels: ['auto-approve', 'auto-merge'],
       secret: AUTOMATION_TOKEN,
     },
-  }),
+  },
   autoApproveOptions: {
     secret: 'GITHUB_TOKEN',
     allowedUsernames: ['pahud', 'cdk-automation'],
