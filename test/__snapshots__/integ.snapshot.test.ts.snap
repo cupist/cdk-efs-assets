@@ -513,7 +513,7 @@ Object {
           ],
         },
       },
-      "Type": "Custom::AWS",
+      "Type": "Custom::RunTask",
       "UpdateReplacePolicy": "Delete",
     },
     "GithubSyncedAccessPointPrivateSyncTriggerEcsRunTaskCustomResourcePolicy2E574E9C": Object {
@@ -594,7 +594,7 @@ Object {
           ],
         },
       },
-      "Type": "Custom::AWS",
+      "Type": "Custom::RunTask",
       "UpdateReplacePolicy": "Delete",
     },
     "GithubSyncedAccessPointSyncTriggerEcsRunTaskCustomResourcePolicy10FECB9C": Object {
@@ -832,7 +832,7 @@ Object {
           ],
         },
       },
-      "Type": "Custom::AWS",
+      "Type": "Custom::RunTask",
       "UpdateReplacePolicy": "Delete",
     },
     "S3SyncedAccessPointSyncTriggerEcsRunTaskCustomResourcePolicyE7643430": Object {
